@@ -98,7 +98,6 @@ impl Universe {
                     // All other cells remain in the same state.
                     (otherwise, _) => otherwise,
                 };
-
                 log!("    it becomes {:?}", next_cell);
 
                 next[idx] = next_cell;
